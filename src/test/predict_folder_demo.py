@@ -184,7 +184,7 @@ def main(config):
   t = time.time()
 
   for idx, subj_id in enumerate(face_bbox_dict.keys()):
-    
+
     print('(%g/%g) Running the age estimation step for "%s"'%(idx + 1,
                                                               len(face_bbox_dict),
                                                               subj_id),
@@ -196,6 +196,12 @@ def main(config):
     age_pred_dict[subj_id] = dict()
 
     age_pred_dict[subj_id]["faceage"] = get_model_prediction(model, path_to_image, mtcnn_output_dict)
+
+    predicted_age = age_pred_dict[subj_id]["faceage"]
+    print('(%g/%g) Subject "%s" -> estimated age: %.1f years'%(idx + 1,
+                                                               len(face_bbox_dict),
+                                                               subj_id,
+                                                               predicted_age))
 
   elapsed = time.time() - t
   print("\n... Done in %g seconds."%(elapsed))
