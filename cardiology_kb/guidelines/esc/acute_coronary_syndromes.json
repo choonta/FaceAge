@@ -1,0 +1,169 @@
+{
+  "title": "2023 ESC Guidelines for the Management of Acute Coronary Syndromes",
+  "organization": "ESC",
+  "year": 2023,
+  "doi": "10.1093/eurheartj/ehad191",
+  "pmid": "37622654",
+  "topic": "acute_coronary_syndromes",
+  "definitions": {
+    "STEMI": "Persistent ST-segment elevation and acute total coronary occlusion",
+    "NSTEMI": "Myocardial necrosis without persistent ST elevation; diagnosed by rise/fall of hs-cTn",
+    "NSTE-ACS": "NSTEMI and unstable angina",
+    "GRACE Score": "Global Registry of Acute Coronary Events mortality risk score",
+    "hs-cTn": "High-sensitivity cardiac troponin",
+    "0h/1h algorithm": "ESC rapid rule-out/rule-in protocol using hs-cTn at 0h and 1h",
+    "Primary PCI": "Percutaneous coronary intervention as primary reperfusion in STEMI",
+    "CABG": "Coronary artery bypass grafting"
+  },
+  "recommendations": [
+    {
+      "id": "ESC-ACS-001",
+      "text": "Primary PCI is recommended for STEMI within 120 minutes of first medical contact if available.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "reperfusion"
+    },
+    {
+      "id": "ESC-ACS-002",
+      "text": "Fibrinolysis should be administered within 10 minutes of STEMI diagnosis when primary PCI cannot be performed within 120 minutes.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "reperfusion",
+      "drugs": ["tenecteplase", "alteplase", "reteplase"]
+    },
+    {
+      "id": "ESC-ACS-003",
+      "text": "Aspirin 150–300 mg loading dose is recommended for all patients with ACS without contraindications.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "antiplatelet",
+      "drugs": ["aspirin"]
+    },
+    {
+      "id": "ESC-ACS-004",
+      "text": "P2Y12 inhibitor (ticagrelor or prasugrel preferred, clopidogrel if these not available) in addition to aspirin is recommended for ACS patients managed with PCI.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "antiplatelet",
+      "drugs": ["ticagrelor", "prasugrel", "clopidogrel"]
+    },
+    {
+      "id": "ESC-ACS-005",
+      "text": "High-intensity statin therapy is recommended in all ACS patients regardless of baseline LDL-C, with LDL-C target <55 mg/dL.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "Statin"
+    },
+    {
+      "id": "ESC-ACS-006",
+      "text": "If LDL-C ≥55 mg/dL on maximally tolerated statin, ezetimibe is recommended in addition.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["ezetimibe"]
+    },
+    {
+      "id": "ESC-ACS-007",
+      "text": "If LDL-C ≥55 mg/dL on maximally tolerated statin + ezetimibe, PCSK9 inhibitor is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["evolocumab", "alirocumab"],
+      "drug_class": "PCSK9 inhibitor"
+    },
+    {
+      "id": "ESC-ACS-008",
+      "text": "Beta-blockers are recommended in STEMI patients with LVEF ≤40% or HF.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "Beta-blocker"
+    },
+    {
+      "id": "ESC-ACS-009",
+      "text": "ACEi is recommended for long-term therapy in ACS patients with HF, LVEF ≤40%, DM, or hypertension.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "ACEi"
+    },
+    {
+      "id": "ESC-ACS-010",
+      "text": "Early invasive strategy (<24h) is recommended for NSTE-ACS patients with at least one high-risk criterion (raised troponin, ST changes, GRACE >140).",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "strategy"
+    },
+    {
+      "id": "ESC-ACS-011",
+      "text": "Immediate invasive strategy (<2h) is recommended for NSTE-ACS with very-high-risk features (refractory angina, haemodynamic instability, arrhythmias).",
+      "class": "I",
+      "level_of_evidence": "C",
+      "category": "strategy"
+    },
+    {
+      "id": "ESC-ACS-012",
+      "text": "The 0h/1h rapid rule-out/rule-in algorithm using hs-cTn is recommended for early triage in NSTE-ACS.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "diagnosis"
+    },
+    {
+      "id": "ESC-ACS-013",
+      "text": "DAPT for 12 months is recommended after ACS with PCI, unless contraindicated by high bleeding risk.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "antiplatelet"
+    },
+    {
+      "id": "ESC-ACS-014",
+      "text": "MRA is recommended in ACS patients with LVEF ≤40% without severe renal dysfunction or hyperkalaemia.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drug_class": "MRA"
+    }
+  ],
+  "hs_troponin_algorithms": {
+    "0h_1h_rule_out": "Both 0h and 1h hs-cTnI <5 ng/L (or assay-specific limit) → rule out NSTEMI",
+    "0h_1h_rule_in": "0h hs-cTnI ≥52 ng/L OR absolute delta ≥6 ng/L → rule in NSTEMI",
+    "observe": "Values between rule-out and rule-in → observe 3h"
+  },
+  "pharmacotherapy": [
+    {
+      "drug_class": "P2Y12 inhibitor",
+      "examples": "ticagrelor 180 mg → 90 mg BID; prasugrel 60 mg → 10 mg daily",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "ACS with PCI"
+    },
+    {
+      "drug_class": "Anticoagulant",
+      "examples": "UFH bolus + infusion; enoxaparin 1 mg/kg SC BID; bivalirudin in PCI",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "ACS in-hospital therapy"
+    },
+    {
+      "drug_class": "High-intensity statin",
+      "examples": "atorvastatin 40–80 mg, rosuvastatin 20–40 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "All ACS — LDL target <55 mg/dL"
+    },
+    {
+      "drug_class": "PCSK9 inhibitor",
+      "examples": "evolocumab, alirocumab",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Post-ACS LDL ≥55 on statin + ezetimibe"
+    }
+  ],
+  "key_trials": [
+    {"name": "PLATO", "drug": "ticagrelor", "finding": "16% RRR in CV death/MI/stroke vs clopidogrel", "pmid": "19717846"},
+    {"name": "TRITON-TIMI 38", "drug": "prasugrel", "finding": "19% RRR but more major bleeding vs clopidogrel", "pmid": "18981220"},
+    {"name": "COMPLETE", "drug": "complete revascularisation", "finding": "Complete PCI reduces CV death/MI in STEMI with multivessel disease", "pmid": "31475795"},
+    {"name": "BIOATLAS", "drug": "hs-cTn 0/1h", "finding": "0h/1h algorithm safely rules out NSTEMI in >50% of patients on arrival", "pmid": "29895957"}
+  ]
+}

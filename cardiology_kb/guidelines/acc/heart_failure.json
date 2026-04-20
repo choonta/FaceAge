@@ -1,0 +1,212 @@
+{
+  "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure",
+  "organization": "ACC/AHA/HFSA",
+  "year": 2022,
+  "doi": "10.1016/j.jacc.2021.12.012",
+  "pmid": "35379503",
+  "topic": "heart_failure",
+  "definitions": {
+    "HFrEF": "Heart failure with reduced ejection fraction: LVEF ≤40%",
+    "HFmrEF": "Heart failure with mildly reduced ejection fraction: LVEF 41–49%",
+    "HFpEF": "Heart failure with preserved ejection fraction: LVEF ≥50%",
+    "NYHA Class I": "No symptoms with ordinary physical activity",
+    "NYHA Class II": "Slight limitation; comfortable at rest, symptoms with moderate exertion",
+    "NYHA Class III": "Marked limitation; comfortable at rest, symptoms with minimal exertion",
+    "NYHA Class IV": "Symptoms at rest or with any physical activity",
+    "Stage A": "At risk for HF, no structural heart disease or symptoms",
+    "Stage B": "Pre-HF: structural/functional cardiac changes, no symptoms",
+    "Stage C": "Symptomatic HF",
+    "Stage D": "Advanced HF refractory to GDMT"
+  },
+  "recommendations": [
+    {
+      "id": "ACC-HF-001",
+      "text": "For patients with HFrEF (LVEF ≤40%), ACEi or ARB or ARNI therapy is recommended to reduce morbidity and mortality.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["ACE inhibitors", "ARB", "sacubitril/valsartan (ARNI)"]
+    },
+    {
+      "id": "ACC-HF-002",
+      "text": "Evidence-based beta blockers (carvedilol, metoprolol succinate, bisoprolol) are recommended for all stable patients with HFrEF to reduce mortality.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["carvedilol", "metoprolol succinate", "bisoprolol"]
+    },
+    {
+      "id": "ACC-HF-003",
+      "text": "MRA (spironolactone or eplerenone) is recommended for patients with HFrEF (LVEF ≤35%) and NYHA Class II–IV to reduce mortality and hospitalizations.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["spironolactone", "eplerenone"],
+      "drug_class": "MRA"
+    },
+    {
+      "id": "ACC-HF-004",
+      "text": "SGLT2 inhibitors (dapagliflozin or empagliflozin) are recommended in patients with HFrEF to reduce HF hospitalizations and cardiovascular mortality.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["dapagliflozin", "empagliflozin"],
+      "drug_class": "SGLT2 inhibitor"
+    },
+    {
+      "id": "ACC-HF-005",
+      "text": "In patients with HFrEF tolerating an ACEi or ARB, replacement with sacubitril/valsartan is recommended to further reduce morbidity and mortality.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["sacubitril/valsartan"],
+      "drug_class": "ARNI"
+    },
+    {
+      "id": "ACC-HF-006",
+      "text": "Diuretics are recommended in patients with HF and fluid retention to improve symptoms.",
+      "class": "I",
+      "level_of_evidence": "C",
+      "category": "pharmacotherapy",
+      "drugs": ["furosemide", "bumetanide", "torsemide"],
+      "drug_class": "Loop diuretic"
+    },
+    {
+      "id": "ACC-HF-007",
+      "text": "ICD therapy is recommended in selected patients with HFrEF (LVEF ≤35%) with NYHA Class II–III on GDMT to reduce sudden cardiac death.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "device"
+    },
+    {
+      "id": "ACC-HF-008",
+      "text": "CRT is indicated for patients with LVEF ≤35%, sinus rhythm, LBBB with QRS ≥150 ms, and NYHA Class II–IV on GDMT.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "device"
+    },
+    {
+      "id": "ACC-HF-009",
+      "text": "SGLT2 inhibitors are recommended in patients with HFpEF to decrease hospitalizations for HF and cardiovascular mortality.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["dapagliflozin", "empagliflozin"],
+      "drug_class": "SGLT2 inhibitor"
+    },
+    {
+      "id": "ACC-HF-010",
+      "text": "Routine use of omega-3 polyunsaturated fatty acids may be considered in patients with HF to reduce CV mortality and HF hospitalizations.",
+      "class": "IIb",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ACC-HF-011",
+      "text": "Calcium channel blockers with negative inotropic effects (diltiazem, verapamil) are potentially harmful in HFrEF.",
+      "class": "III",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["diltiazem", "verapamil"]
+    },
+    {
+      "id": "ACC-HF-012",
+      "text": "ARNI should not be administered concomitantly with or within 36 hours of ACE inhibitors.",
+      "class": "III",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ACC-HF-013",
+      "text": "Hydralazine-nitrate combination is recommended for patients who identify as Black/African American with NYHA Class III–IV HFrEF on GDMT to reduce morbidity and mortality.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["hydralazine", "isosorbide dinitrate"]
+    },
+    {
+      "id": "ACC-HF-014",
+      "text": "Ivabradine is recommended to reduce HF hospitalisations in stable patients with HFrEF (LVEF ≤35%), sinus rhythm, resting HR ≥70 bpm on maximally tolerated beta-blocker.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["ivabradine"]
+    },
+    {
+      "id": "ACC-HF-015",
+      "text": "Coronary revascularization is reasonable in selected patients with HFrEF and significant CAD who have viable myocardium.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "intervention"
+    }
+  ],
+  "pharmacotherapy": [
+    {
+      "drug_class": "ARNI",
+      "examples": "sacubitril/valsartan (Entresto)",
+      "starting_dose": "24/26 mg BID",
+      "target_dose": "97/103 mg BID",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "HFrEF"
+    },
+    {
+      "drug_class": "ACE Inhibitor",
+      "examples": "enalapril, lisinopril, captopril, ramipril",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "HFrEF (if ARNI not tolerated)"
+    },
+    {
+      "drug_class": "ARB",
+      "examples": "valsartan, candesartan, losartan",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "HFrEF (if ACEi not tolerated)"
+    },
+    {
+      "drug_class": "Beta-blocker",
+      "examples": "carvedilol, metoprolol succinate, bisoprolol",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "HFrEF"
+    },
+    {
+      "drug_class": "MRA",
+      "examples": "spironolactone, eplerenone",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "HFrEF LVEF ≤35%"
+    },
+    {
+      "drug_class": "SGLT2 Inhibitor",
+      "examples": "dapagliflozin 10 mg, empagliflozin 10 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "HFrEF and HFpEF"
+    },
+    {
+      "drug_class": "Loop Diuretic",
+      "examples": "furosemide, bumetanide, torsemide",
+      "recommendation_class": "I",
+      "level_of_evidence": "C",
+      "indication": "Congestion/fluid overload"
+    }
+  ],
+  "key_trials": [
+    {"name": "PARADIGM-HF", "drug": "sacubitril/valsartan", "finding": "20% RRR in CV death/HF hospitalization vs enalapril", "pmid": "25176015"},
+    {"name": "DAPA-HF", "drug": "dapagliflozin", "finding": "26% RRR in worsening HF or CV death in HFrEF", "pmid": "31535829"},
+    {"name": "EMPEROR-Reduced", "drug": "empagliflozin", "finding": "25% RRR in CV death or HF hospitalization in HFrEF", "pmid": "32865377"},
+    {"name": "EMPEROR-Preserved", "drug": "empagliflozin", "finding": "21% RRR in CV death/HF hospitalization in HFpEF", "pmid": "34757377"},
+    {"name": "DELIVER", "drug": "dapagliflozin", "finding": "18% RRR in worsening HF or CV death in HFmrEF/HFpEF", "pmid": "35900782"},
+    {"name": "RALES", "drug": "spironolactone", "finding": "30% RRR in all-cause mortality in HFrEF", "pmid": "10471456"},
+    {"name": "SHIFT", "drug": "ivabradine", "finding": "18% RRR in CV death/HF hospitalization at HR ≥70", "pmid": "20801500"},
+    {"name": "MADIT-II", "drug": "ICD", "finding": "31% RRR in all-cause mortality post-MI with LVEF ≤30%", "pmid": "11907286"}
+  ],
+  "biomarkers": [
+    {"name": "BNP", "threshold_hf_diagnosis": ">35 pg/mL", "threshold_hf_excluded": "<100 pg/mL"},
+    {"name": "NT-proBNP", "threshold_hf_diagnosis": ">125 pg/mL", "threshold_hf_excluded": "<300 pg/mL"},
+    {"name": "Troponin", "role": "Prognostication and ischemic evaluation"},
+    {"name": "Ferritin/TSAT", "role": "Iron deficiency screening: ferritin <100 ng/mL or 100–300 with TSAT <20%"}
+  ]
+}

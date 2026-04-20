@@ -1,0 +1,170 @@
+{
+  "title": "2021 ESC Guidelines on Cardiovascular Disease Prevention in Clinical Practice",
+  "organization": "ESC",
+  "year": 2021,
+  "doi": "10.1093/eurheartj/ehab484",
+  "pmid": "34458905",
+  "topic": "cardiovascular_prevention",
+  "definitions": {
+    "Primary Prevention": "Prevention of first CV event",
+    "Secondary Prevention": "Prevention of recurrent CV events in individuals with established CVD",
+    "SCORE2": "10-year risk of fatal and non-fatal CV events in adults 40–69 without prior CVD or DM",
+    "SCORE2-OP": "SCORE2 adapted for adults ≥70 years",
+    "Polypill": "Fixed-dose combination tablet containing aspirin, statin, and antihypertensive",
+    "Healthy Life Years": "Combines survival and quality of life into one measure"
+  },
+  "recommendations": [
+    {
+      "id": "ESC-PREV-001",
+      "text": "SCORE2/SCORE2-OP risk estimation is recommended in all adults ≥40 years without established CVD or DM for primary prevention decision-making.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "risk_stratification"
+    },
+    {
+      "id": "ESC-PREV-002",
+      "text": "All adults should be advised that not smoking is the single most effective lifestyle measure for CV prevention.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "lifestyle"
+    },
+    {
+      "id": "ESC-PREV-003",
+      "text": "A Mediterranean diet (high in vegetables, legumes, fruit, fish, olive oil; low in red meat) is recommended for primary CV prevention.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "lifestyle"
+    },
+    {
+      "id": "ESC-PREV-004",
+      "text": "Regular moderate-intensity aerobic exercise (≥150–300 min/week) is recommended for prevention of CVD.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "lifestyle"
+    },
+    {
+      "id": "ESC-PREV-005",
+      "text": "Body weight management targeting BMI 20–25 kg/m² and waist circumference <94 cm (men) / <80 cm (women) is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "lifestyle"
+    },
+    {
+      "id": "ESC-PREV-006",
+      "text": "Statins are recommended for primary prevention in high and very-high-risk patients who do not reach LDL-C goals with lifestyle changes.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "Statin"
+    },
+    {
+      "id": "ESC-PREV-007",
+      "text": "Antihypertensive drug treatment is recommended in adults with Grade 2–3 hypertension or Grade 1 with high/very-high CV risk.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ESC-PREV-008",
+      "text": "Aspirin for primary prevention is not recommended in persons at low or moderate cardiovascular risk.",
+      "class": "III",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["aspirin"]
+    },
+    {
+      "id": "ESC-PREV-009",
+      "text": "Aspirin is recommended for secondary prevention in all patients with established ASCVD.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["aspirin"]
+    },
+    {
+      "id": "ESC-PREV-010",
+      "text": "GLP-1 receptor agonists are recommended in patients with type 2 diabetes at high/very-high CV risk to reduce CV events and mortality.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["semaglutide", "liraglutide", "dulaglutide"],
+      "drug_class": "GLP-1 RA"
+    },
+    {
+      "id": "ESC-PREV-011",
+      "text": "SGLT2 inhibitors are recommended in patients with type 2 diabetes at high/very-high CV risk to reduce CV events, HF hospitalization, and mortality.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["empagliflozin", "canagliflozin", "dapagliflozin"],
+      "drug_class": "SGLT2 inhibitor"
+    },
+    {
+      "id": "ESC-PREV-012",
+      "text": "Measurement of carotid intima-media thickness or coronary artery calcium (CAC) score may be considered for refinement of risk stratification.",
+      "class": "IIb",
+      "level_of_evidence": "B",
+      "category": "risk_stratification"
+    },
+    {
+      "id": "ESC-PREV-013",
+      "text": "Cardioprotective agents should be initiated (statin + antihypertensive) in cancer patients receiving cardiotoxic therapies at high CV risk.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "cardio_oncology"
+    }
+  ],
+  "lifestyle_targets": {
+    "smoking": "Complete cessation; pharmacological support offered",
+    "diet": "Mediterranean; reduce processed food, red meat, trans fats, added sugar",
+    "physical_activity": "150–300 min/week moderate or 75–150 min/week vigorous aerobic; 2x/week muscle-strengthening",
+    "alcohol": "≤100 g/week (men and women); no safe level — abstinence preferable",
+    "BMI": "20–25 kg/m²",
+    "waist_circumference": "<94 cm (men), <80 cm (women)",
+    "sleep": "7–9 hours/night; treat obstructive sleep apnea"
+  },
+  "risk_factor_targets": {
+    "BP": "SBP 120–130 mmHg (<65 years); 130–139 mmHg (≥65 years)",
+    "LDL_secondary": "<55 mg/dL (very high risk), <70 mg/dL (high risk)",
+    "LDL_primary": "<100 mg/dL (high risk primary)",
+    "HbA1c": "<7% (UKPDS); individualised in elderly",
+    "HR": "Resting HR <70 bpm in CAD"
+  },
+  "pharmacotherapy": [
+    {
+      "drug_class": "Statin",
+      "examples": "atorvastatin 40–80 mg, rosuvastatin 20–40 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Primary prevention at high/very-high risk; all secondary prevention"
+    },
+    {
+      "drug_class": "GLP-1 RA",
+      "examples": "semaglutide 0.5–1 mg SC weekly, liraglutide 1.2–1.8 mg SC daily",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "T2DM with high/very-high CV risk"
+    },
+    {
+      "drug_class": "SGLT2 inhibitor",
+      "examples": "empagliflozin 10–25 mg, canagliflozin 100–300 mg, dapagliflozin 10 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "T2DM with high/very-high CV risk"
+    },
+    {
+      "drug_class": "Aspirin",
+      "examples": "aspirin 75–100 mg",
+      "recommendation_class": "I/III",
+      "level_of_evidence": "A",
+      "indication": "Secondary prevention (Class I); NOT for primary prevention (Class III)"
+    }
+  ],
+  "key_trials": [
+    {"name": "ASPREE", "drug": "aspirin primary prevention", "finding": "No CV benefit; increased bleeding and cancer mortality in elderly", "pmid": "30221595"},
+    {"name": "LEADER", "drug": "liraglutide", "finding": "13% RRR in CV death, MI, stroke in T2DM with CVD", "pmid": "27295427"},
+    {"name": "SUSTAIN-6", "drug": "semaglutide", "finding": "26% RRR in MACE in T2DM with high CV risk", "pmid": "28095653"},
+    {"name": "EMPA-REG OUTCOME", "drug": "empagliflozin", "finding": "14% RRR in MACE; 35% HF hospitalization reduction; 32% renal progression", "pmid": "26378978"},
+    {"name": "CANVAS", "drug": "canagliflozin", "finding": "14% RRR in MACE; 33% HF hospitalization reduction", "pmid": "28605608"},
+    {"name": "DAPA-CKD", "drug": "dapagliflozin", "finding": "39% RRR in composite renal/CV outcome in CKD", "pmid": "33010180"}
+  ]
+}

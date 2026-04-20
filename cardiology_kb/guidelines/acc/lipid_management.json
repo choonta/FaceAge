@@ -1,0 +1,189 @@
+{
+  "title": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+  "organization": "ACC/AHA",
+  "year": 2018,
+  "doi": "10.1016/j.jacc.2018.11.003",
+  "pmid": "30423393",
+  "topic": "lipid_management",
+  "definitions": {
+    "ASCVD": "Atherosclerotic cardiovascular disease: ACS, MI, stable/unstable angina, coronary or other arterial revascularization, stroke, TIA, PAD",
+    "Very High Risk ASCVD": "≥2 major ASCVD events OR 1 major event + ≥2 high-risk conditions",
+    "Primary Prevention": "No prior ASCVD events",
+    "Secondary Prevention": "Established ASCVD",
+    "LDL-C": "Low-density lipoprotein cholesterol",
+    "non-HDL-C": "Total cholesterol minus HDL-C",
+    "Statin Intolerance": "Inability to tolerate ≥2 statins due to skeletal muscle or other adverse effects",
+    "FH": "Familial hypercholesterolemia: LDL-C ≥190 mg/dL without secondary cause"
+  },
+  "recommendations": [
+    {
+      "id": "ACC-LIPID-001",
+      "text": "In patients with clinical ASCVD, high-intensity statin therapy is recommended to reduce LDL-C by ≥50%.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "secondary_prevention",
+      "drug_class": "Statin"
+    },
+    {
+      "id": "ACC-LIPID-002",
+      "text": "In very-high-risk ASCVD with LDL-C ≥70 mg/dL on maximally tolerated statin, ezetimibe is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "secondary_prevention",
+      "drugs": ["ezetimibe"]
+    },
+    {
+      "id": "ACC-LIPID-003",
+      "text": "In very-high-risk ASCVD with LDL-C ≥70 mg/dL on maximally tolerated statin + ezetimibe, PCSK9 inhibitor addition is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "secondary_prevention",
+      "drugs": ["evolocumab", "alirocumab"],
+      "drug_class": "PCSK9 inhibitor"
+    },
+    {
+      "id": "ACC-LIPID-004",
+      "text": "Adults 40–75 years with LDL-C 70–189 mg/dL and ≥7.5% 10-year ASCVD risk: moderate-to-high intensity statin is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "primary_prevention"
+    },
+    {
+      "id": "ACC-LIPID-005",
+      "text": "In adults 40–75 years with LDL-C ≥190 mg/dL, high-intensity statin therapy is recommended without prior risk assessment.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "FH"
+    },
+    {
+      "id": "ACC-LIPID-006",
+      "text": "For adults with diabetes aged 40–75 years with LDL-C 70–189 mg/dL, moderate-intensity statin is recommended regardless of ASCVD risk.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "diabetes"
+    },
+    {
+      "id": "ACC-LIPID-007",
+      "text": "A risk discussion including risk enhancers should be held before initiating statin therapy in adults with borderline or intermediate risk.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "primary_prevention"
+    },
+    {
+      "id": "ACC-LIPID-008",
+      "text": "Coronary artery calcium (CAC) score may be used to guide statin therapy decisions in intermediate-risk adults.",
+      "class": "IIb",
+      "level_of_evidence": "B",
+      "category": "primary_prevention"
+    },
+    {
+      "id": "ACC-LIPID-009",
+      "text": "Icosapent ethyl 4 g/day is recommended for patients with established CVD or DM with triglycerides 150–499 mg/dL on statin therapy.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["icosapent ethyl (Vascepa)"]
+    },
+    {
+      "id": "ACC-LIPID-010",
+      "text": "Bempedoic acid is recommended for adults with ASCVD or FH who cannot tolerate statins, to reduce LDL-C.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "statin_intolerance",
+      "drugs": ["bempedoic acid"]
+    },
+    {
+      "id": "ACC-LIPID-011",
+      "text": "Inclisiran (siRNA targeting PCSK9) is recommended for additional LDL-C lowering in ASCVD patients with LDL-C ≥70 mg/dL on maximally tolerated therapy.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "secondary_prevention",
+      "drugs": ["inclisiran"],
+      "drug_class": "siRNA PCSK9 inhibitor"
+    }
+  ],
+  "statin_intensity": {
+    "high_intensity": {
+      "drugs": ["atorvastatin 40–80 mg", "rosuvastatin 20–40 mg"],
+      "ldl_reduction": "≥50%"
+    },
+    "moderate_intensity": {
+      "drugs": ["atorvastatin 10–20 mg", "rosuvastatin 5–10 mg", "simvastatin 20–40 mg", "pravastatin 40–80 mg", "fluvastatin 80 mg"],
+      "ldl_reduction": "30–49%"
+    },
+    "low_intensity": {
+      "drugs": ["simvastatin 10 mg", "pravastatin 10–20 mg", "fluvastatin 20–40 mg"],
+      "ldl_reduction": "<30%"
+    }
+  },
+  "ldl_targets": {
+    "very_high_risk_ASCVD": "<55 mg/dL (ESC) or <70 mg/dL (ACC/AHA)",
+    "high_risk_ASCVD": "<70 mg/dL",
+    "intermediate_risk_primary": "<100 mg/dL",
+    "FH_no_ASCVD": "<100 mg/dL",
+    "FH_with_ASCVD": "<70 mg/dL"
+  },
+  "risk_enhancers": [
+    "Family history of premature ASCVD",
+    "LDL-C ≥160 mg/dL persistently",
+    "High-sensitivity CRP ≥2.0 mg/L",
+    "ABI <0.9",
+    "Triglycerides ≥175 mg/dL",
+    "Lipoprotein(a) ≥50 mg/dL",
+    "apoB ≥130 mg/dL",
+    "Metabolic syndrome",
+    "Chronic kidney disease (eGFR 15–59)"
+  ],
+  "pharmacotherapy": [
+    {
+      "drug_class": "High-intensity statin",
+      "examples": "atorvastatin 40–80 mg, rosuvastatin 20–40 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Secondary prevention; FH; primary >20% 10y-risk"
+    },
+    {
+      "drug_class": "Ezetimibe",
+      "examples": "ezetimibe 10 mg daily",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Add-on to statin in ASCVD LDL ≥70"
+    },
+    {
+      "drug_class": "PCSK9 inhibitor (monoclonal Ab)",
+      "examples": "evolocumab 140 mg Q2wk or 420 mg monthly; alirocumab 75–150 mg Q2wk",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Very-high-risk ASCVD/FH on max statin + ezetimibe"
+    },
+    {
+      "drug_class": "PCSK9 inhibitor (siRNA)",
+      "examples": "inclisiran 284 mg SC at day 1, 3 months, then Q6months",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Secondary prevention LDL ≥70 on max therapy"
+    },
+    {
+      "drug_class": "Bempedoic acid",
+      "examples": "bempedoic acid 180 mg daily",
+      "recommendation_class": "IIa",
+      "level_of_evidence": "B",
+      "indication": "Statin intolerance"
+    },
+    {
+      "drug_class": "Omega-3 fatty acid",
+      "examples": "icosapent ethyl (Vascepa) 4 g/day",
+      "recommendation_class": "IIa",
+      "level_of_evidence": "B",
+      "indication": "CVD/DM + TG 150–499 on statin"
+    }
+  ],
+  "key_trials": [
+    {"name": "IMPROVE-IT", "drug": "ezetimibe", "finding": "6.4% RRR in MACE with statin+ezetimibe vs statin alone post-ACS", "pmid": "25782399"},
+    {"name": "FOURIER", "drug": "evolocumab", "finding": "15% RRR in MACE; 27% RRR in MI/stroke", "pmid": "28304224"},
+    {"name": "ODYSSEY-OUTCOMES", "drug": "alirocumab", "finding": "15% RRR in MACE; mortality benefit in LDL ≥100", "pmid": "30145975"},
+    {"name": "REDUCE-IT", "drug": "icosapent ethyl", "finding": "25% RRR in MACE with 4g/day vs placebo", "pmid": "30145979"},
+    {"name": "CLEAR", "drug": "bempedoic acid", "finding": "13% RRR in MACE in statin-intolerant patients", "pmid": "37284040"},
+    {"name": "ORION-10", "drug": "inclisiran", "finding": "54% LDL reduction with twice-yearly injections", "pmid": "31908011"}
+  ]
+}

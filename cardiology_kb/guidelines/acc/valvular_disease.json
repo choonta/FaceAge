@@ -1,0 +1,134 @@
+{
+  "title": "2021 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease",
+  "organization": "ACC/AHA",
+  "year": 2021,
+  "doi": "10.1016/j.jacc.2021.02.037",
+  "pmid": "33972115",
+  "topic": "valvular_disease",
+  "definitions": {
+    "Severe AS": "AVA ≤1.0 cm², mean gradient ≥40 mmHg, peak velocity ≥4.0 m/s",
+    "Low-flow Low-gradient AS": "AVA ≤1.0 cm², mean gradient <40 mmHg, LVEF <50% (classic) or LVEF ≥50% (paradoxical)",
+    "Severe MR": "Vena contracta ≥7 mm, ERO ≥0.40 cm², regurgitant vol ≥60 mL",
+    "Primary MR": "Intrinsic leaflet pathology (e.g., mitral valve prolapse, rheumatic)",
+    "Secondary MR": "Functional MR due to LV dysfunction or remodelling",
+    "Severe TR": "Vena contracta ≥7 mm, ERO ≥0.40 cm²",
+    "TAVR": "Transcatheter aortic valve replacement",
+    "SAVR": "Surgical aortic valve replacement",
+    "MitraClip": "Transcatheter edge-to-edge mitral valve repair"
+  },
+  "recommendations": [
+    {
+      "id": "ACC-VHD-001",
+      "text": "AVR (SAVR or TAVR) is recommended for symptomatic severe AS.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ACC-VHD-002",
+      "text": "TAVR is recommended for symptomatic severe AS in patients at prohibitive or high surgical risk.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ACC-VHD-003",
+      "text": "For patients with severe AS at intermediate surgical risk, TAVR and SAVR are both recommended (choice based on individual anatomy and patient preference).",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ACC-VHD-004",
+      "text": "SAVR is recommended in asymptomatic very severe AS (Vmax ≥5.0 m/s) or when LVEF <50%.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ACC-VHD-005",
+      "text": "MV repair is recommended over MV replacement for primary severe MR in patients with symptoms or LVEF ≤60% or LVESD ≥40 mm.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "mitral_regurgitation"
+    },
+    {
+      "id": "ACC-VHD-006",
+      "text": "Transcatheter edge-to-edge repair (TEER/MitraClip) is reasonable for selected symptomatic primary MR at prohibitive or high surgical risk.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "mitral_regurgitation"
+    },
+    {
+      "id": "ACC-VHD-007",
+      "text": "TEER is recommended for selected severe secondary MR remaining symptomatic on GDMT (per COAPT criteria).",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "mitral_regurgitation"
+    },
+    {
+      "id": "ACC-VHD-008",
+      "text": "Commissurotomy (PBMV) is recommended for severe rheumatic mitral stenosis with MVA ≤1.5 cm² if anatomy is favorable.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "mitral_stenosis"
+    },
+    {
+      "id": "ACC-VHD-009",
+      "text": "Tricuspid valve intervention is reasonable for severe TR in patients undergoing left-sided valve surgery.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "tricuspid_regurgitation"
+    },
+    {
+      "id": "ACC-VHD-010",
+      "text": "Anticoagulation with warfarin (INR 2.5–3.5 for mechanical mitral, 2.0–3.0 for mechanical aortic) is recommended for patients with mechanical prosthetic valves.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "anticoagulation"
+    },
+    {
+      "id": "ACC-VHD-011",
+      "text": "DOACs are not recommended in patients with mechanical heart valves.",
+      "class": "III",
+      "level_of_evidence": "B",
+      "category": "anticoagulation"
+    },
+    {
+      "id": "ACC-VHD-012",
+      "text": "Infective endocarditis prophylaxis is recommended for high-risk patients (prosthetic valve, prior IE, congenital HD) undergoing dental procedures involving manipulation of gingival tissue.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "endocarditis_prophylaxis"
+    }
+  ],
+  "pharmacotherapy": [
+    {
+      "drug_class": "Warfarin",
+      "examples": "Target INR 2.5–3.5 (mechanical mitral), 2.0–3.0 (mechanical aortic)",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "Mechanical prosthetic valves"
+    },
+    {
+      "drug_class": "Aspirin",
+      "examples": "aspirin 75–100 mg daily",
+      "recommendation_class": "IIa",
+      "level_of_evidence": "B",
+      "indication": "Add to warfarin in mechanical valve patients"
+    },
+    {
+      "drug_class": "Antibiotic prophylaxis",
+      "examples": "amoxicillin 2 g PO 30–60 min before procedure (or clindamycin if penicillin-allergic)",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "IE prophylaxis for high-risk patients"
+    }
+  ],
+  "key_trials": [
+    {"name": "PARTNER 3", "drug": "TAVR (low-risk)", "finding": "TAVR non-inferior to SAVR in low-risk AS at 2 years", "pmid": "31084225"},
+    {"name": "COAPT", "drug": "MitraClip (secondary MR)", "finding": "TEER reduced HF hospitalization 47% and death 29% vs GDMT alone", "pmid": "30280640"},
+    {"name": "MITRA-FR", "drug": "MitraClip (secondary MR)", "finding": "No significant benefit over GDMT alone (different patient selection)", "pmid": "30145979"},
+    {"name": "SURTAVI", "drug": "TAVR (intermediate risk)", "finding": "TAVR non-inferior to SAVR in intermediate-risk severe AS", "pmid": "28304246"}
+  ]
+}

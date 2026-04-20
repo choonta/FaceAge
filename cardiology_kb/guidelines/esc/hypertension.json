@@ -1,0 +1,157 @@
+{
+  "title": "2018 ESC/ESH Guidelines for the Management of Arterial Hypertension",
+  "organization": "ESC/ESH",
+  "year": 2018,
+  "doi": "10.1093/eurheartj/ehy339",
+  "pmid": "30165516",
+  "topic": "hypertension",
+  "definitions": {
+    "Optimal BP": "Systolic <120 mmHg and diastolic <80 mmHg",
+    "Normal BP": "Systolic 120–129 mmHg and/or diastolic 80–84 mmHg",
+    "High-normal BP": "Systolic 130–139 mmHg and/or diastolic 85–89 mmHg",
+    "Grade 1 Hypertension": "Systolic 140–159 mmHg and/or diastolic 90–99 mmHg",
+    "Grade 2 Hypertension": "Systolic 160–179 mmHg and/or diastolic 100–109 mmHg",
+    "Grade 3 Hypertension": "Systolic ≥180 mmHg and/or diastolic ≥110 mmHg",
+    "Isolated Systolic Hypertension": "Systolic ≥140 mmHg and diastolic <90 mmHg",
+    "Resistant Hypertension": "BP ≥140/90 mmHg on ≥3 antihypertensive drugs including a diuretic",
+    "ABPM": "Ambulatory blood pressure monitoring",
+    "Hypertensive Emergency": "Acute BP elevation with end-organ damage"
+  },
+  "recommendations": [
+    {
+      "id": "ESC-HTN-001",
+      "text": "Drug treatment should be initiated alongside lifestyle measures in all patients with Grade 2 or 3 hypertension.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ESC-HTN-002",
+      "text": "The recommended BP target in treated hypertensive patients <65 years is SBP 120–129 mmHg; in patients ≥65 years: 130–139 mmHg.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "bp_target"
+    },
+    {
+      "id": "ESC-HTN-003",
+      "text": "A single-pill combination of two drugs is recommended as initial therapy for most patients to improve adherence.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ESC-HTN-004",
+      "text": "The preferred two-drug combination is a RAS blocker (ACEi or ARB) with CCB or thiazide/thiazide-like diuretic.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "RAS blocker + CCB or Diuretic"
+    },
+    {
+      "id": "ESC-HTN-005",
+      "text": "If BP not controlled on dual therapy, a three-drug single-pill combination of ACEi/ARB + CCB + thiazide is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ESC-HTN-006",
+      "text": "For resistant hypertension, addition of low-dose spironolactone (25–50 mg) is recommended as fourth agent.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["spironolactone"]
+    },
+    {
+      "id": "ESC-HTN-007",
+      "text": "Combination of ACEi with ARB is not recommended in hypertension.",
+      "class": "III",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ESC-HTN-008",
+      "text": "ABPM and HBPM are recommended for confirmation and phenotyping of hypertension (white coat, masked).",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "diagnosis"
+    },
+    {
+      "id": "ESC-HTN-009",
+      "text": "Lifestyle measures (salt restriction to <5g/day, weight loss, regular aerobic exercise, moderate alcohol, Mediterranean diet) are recommended for all hypertensive patients.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "lifestyle"
+    },
+    {
+      "id": "ESC-HTN-010",
+      "text": "In hypertensive patients with CKD (eGFR <60 mL/min/1.73m²), ACEi/ARB is recommended; monitor eGFR and potassium.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ESC-HTN-011",
+      "text": "Beta-blockers can be used at any step when there is a specific indication (HF, post-MI, angina, AF).",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    }
+  ],
+  "bp_targets_by_age": {
+    "under_65": {"systolic": "120–129", "diastolic": "70–79"},
+    "65_to_79": {"systolic": "130–139", "diastolic": "70–79"},
+    "80_and_above": {"systolic": "130–139 (if tolerated)", "diastolic": "≥70"}
+  },
+  "bp_targets_by_comorbidity": {
+    "diabetes": "SBP 130 mmHg (<130 if tolerated, not <120)",
+    "CKD": "SBP 130–139 mmHg",
+    "post_stroke": "SBP 120–130 mmHg",
+    "CAD": "SBP 120–130 mmHg",
+    "HF": "Per HF guidelines"
+  },
+  "pharmacotherapy": [
+    {
+      "drug_class": "ACE Inhibitor",
+      "examples": "ramipril 2.5–10 mg, perindopril 4–8 mg, enalapril 5–40 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line or component of SPC; preferred in DM, proteinuria, post-MI"
+    },
+    {
+      "drug_class": "ARB",
+      "examples": "valsartan 80–320 mg, olmesartan 20–40 mg, losartan 50–100 mg, telmisartan 40–80 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line; preferred if ACEi cough"
+    },
+    {
+      "drug_class": "Dihydropyridine CCB",
+      "examples": "amlodipine 5–10 mg, lercanidipine, nifedipine LA",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line or SPC component"
+    },
+    {
+      "drug_class": "Thiazide/thiazide-like diuretic",
+      "examples": "indapamide 1.5 mg SR, chlorthalidone 12.5–25 mg, HCTZ 12.5–25 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line or SPC component"
+    },
+    {
+      "drug_class": "MRA",
+      "examples": "spironolactone 25–50 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "4th agent for resistant hypertension"
+    }
+  ],
+  "key_trials": [
+    {"name": "SPRINT", "finding": "Intensive SBP <120 vs <140 reduced CV events 25% and mortality 27%", "pmid": "26551272"},
+    {"name": "HOPE-3", "finding": "Candesartan+HCTZ reduced stroke; combined CV benefit in intermediate-risk", "pmid": "27041890"},
+    {"name": "ASCOT-BPLA", "finding": "Amlodipine ± perindopril superior to atenolol ± HCTZ for CV events", "pmid": "16154016"},
+    {"name": "ACCOMPLISH", "finding": "Amlodipine+benazepril superior to HCTZ+benazepril for CV events", "pmid": "19052124"},
+    {"name": "PATH-BP", "finding": "Spironolactone most effective 4th-agent in resistant hypertension", "pmid": "26409751"}
+  ]
+}

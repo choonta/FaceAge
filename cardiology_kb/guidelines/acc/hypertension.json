@@ -1,0 +1,160 @@
+{
+  "title": "2017 ACC/AHA High Blood Pressure Clinical Practice Guideline",
+  "organization": "ACC/AHA",
+  "year": 2017,
+  "doi": "10.1161/HYP.0000000000000065",
+  "pmid": "29133356",
+  "topic": "hypertension",
+  "definitions": {
+    "Normal BP": "Systolic <120 mmHg AND diastolic <80 mmHg",
+    "Elevated BP": "Systolic 120–129 mmHg AND diastolic <80 mmHg",
+    "Stage 1 Hypertension": "Systolic 130–139 mmHg OR diastolic 80–89 mmHg",
+    "Stage 2 Hypertension": "Systolic ≥140 mmHg OR diastolic ≥90 mmHg",
+    "Hypertensive Crisis": "Systolic >180 mmHg and/or diastolic >120 mmHg",
+    "Resistant Hypertension": "BP >130/80 on ≥3 antihypertensive drugs including diuretic",
+    "White Coat Hypertension": "Elevated office BP with normal out-of-office BP",
+    "Masked Hypertension": "Normal office BP with elevated out-of-office BP"
+  },
+  "recommendations": [
+    {
+      "id": "ACC-HTN-001",
+      "text": "Lifestyle modifications (weight loss, DASH diet, sodium reduction, physical activity, moderation of alcohol) are recommended for all adults with elevated BP or hypertension.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "lifestyle"
+    },
+    {
+      "id": "ACC-HTN-002",
+      "text": "For adults with confirmed hypertension and known CVD or 10-year ASCVD ≥10%, a BP target of <130/80 mmHg is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "bp_target"
+    },
+    {
+      "id": "ACC-HTN-003",
+      "text": "For adults with confirmed hypertension without CVD and 10-year ASCVD <10%, a BP target of <130/80 mmHg is reasonable.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "bp_target"
+    },
+    {
+      "id": "ACC-HTN-004",
+      "text": "In adults with Stage 1 hypertension and CVD or 10-year ASCVD ≥10%, antihypertensive drug therapy is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ACC-HTN-005",
+      "text": "First-line antihypertensive drugs include thiazide-type diuretics, CCBs, ACEi, or ARBs.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["chlorthalidone", "amlodipine", "lisinopril", "losartan"]
+    },
+    {
+      "id": "ACC-HTN-006",
+      "text": "RAS blockers (ACEi or ARB) are recommended in patients with hypertension and diabetes or CKD.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "ACEi/ARB"
+    },
+    {
+      "id": "ACC-HTN-007",
+      "text": "Combination therapy of ACEi with ARB is not recommended in hypertensive patients.",
+      "class": "III",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ACC-HTN-008",
+      "text": "For adults with resistant hypertension, addition of spironolactone or eplerenone is recommended as fourth-line agent.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["spironolactone", "eplerenone"]
+    },
+    {
+      "id": "ACC-HTN-009",
+      "text": "Out-of-office BP measurements (home or ambulatory monitoring) are recommended for confirmation of hypertension diagnosis.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "diagnosis"
+    },
+    {
+      "id": "ACC-HTN-010",
+      "text": "In adults with hypertension and HFrEF, ACEi/ARB/ARNI plus beta-blocker plus MRA are recommended as preferred agents.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    },
+    {
+      "id": "ACC-HTN-011",
+      "text": "In adults with hypertension and stable ischemic heart disease, beta-blockers, ACEi, or ARBs are preferred agents.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy"
+    }
+  ],
+  "pharmacotherapy": [
+    {
+      "drug_class": "Thiazide diuretic",
+      "examples": "chlorthalidone 12.5–25 mg, hydrochlorothiazide 12.5–50 mg, indapamide",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line hypertension"
+    },
+    {
+      "drug_class": "Dihydropyridine CCB",
+      "examples": "amlodipine 2.5–10 mg, felodipine, nifedipine",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line hypertension"
+    },
+    {
+      "drug_class": "ACE Inhibitor",
+      "examples": "lisinopril 10–40 mg, enalapril 5–40 mg, ramipril 2.5–10 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line; preferred in DM, CKD, HFrEF"
+    },
+    {
+      "drug_class": "ARB",
+      "examples": "losartan 25–100 mg, valsartan 80–320 mg, irbesartan 150–300 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "First-line; preferred in DM, CKD, HFrEF (ACEi-intolerant)"
+    },
+    {
+      "drug_class": "Beta-blocker",
+      "examples": "metoprolol, atenolol, carvedilol, nebivolol",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Post-MI, HFrEF, angina; not preferred first-line for uncomplicated HTN"
+    },
+    {
+      "drug_class": "MRA",
+      "examples": "spironolactone 25–50 mg, eplerenone",
+      "recommendation_class": "IIa",
+      "level_of_evidence": "B",
+      "indication": "Resistant hypertension (4th-line)"
+    }
+  ],
+  "key_trials": [
+    {"name": "SPRINT", "finding": "Intensive BP target <120 vs <140 reduced CV events 25% and all-cause mortality 27%", "pmid": "26551272"},
+    {"name": "ACCORD", "finding": "Intensive BP <120 in DM did not reduce CV events vs <140", "pmid": "20228401"},
+    {"name": "ALLHAT", "finding": "Chlorthalidone equivalent to amlodipine and lisinopril for primary CHD events", "pmid": "12479764"},
+    {"name": "ONTARGET", "finding": "Telmisartan non-inferior to ramipril; combination increased adverse events", "pmid": "18378520"}
+  ],
+  "secondary_causes": [
+    "Primary aldosteronism",
+    "Renal artery stenosis",
+    "Obstructive sleep apnea",
+    "Pheochromocytoma",
+    "Cushing syndrome",
+    "Hypothyroidism/Hyperthyroidism",
+    "Coarctation of the aorta",
+    "Drug-induced (NSAIDs, OCPs, sympathomimetics, stimulants)"
+  ]
+}

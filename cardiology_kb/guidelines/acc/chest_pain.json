@@ -1,0 +1,93 @@
+{
+  "title": "2021 ACC/AHA/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain",
+  "organization": "ACC/AHA",
+  "year": 2021,
+  "doi": "10.1016/j.jacc.2021.07.053",
+  "pmid": "34756653",
+  "topic": "chest_pain",
+  "definitions": {
+    "Typical Angina": "Substernal chest discomfort; precipitated by exertion or emotional stress; relieved by rest or nitrates",
+    "Atypical Angina": "Meets 2 of 3 typical angina features",
+    "Non-cardiac Chest Pain": "Meets ≤1 typical angina feature",
+    "High-sensitivity Troponin (hs-cTn)": "Detects myocardial injury at low concentrations; enables faster rule-out",
+    "HEART Score": "History(0–2), ECG(0–2), Age(0–2), Risk factors(0–2), Troponin(0–2); ≤3=low, 4–6=moderate, ≥7=high",
+    "TIMI Score": "0–7 for NSTE-ACS risk"
+  },
+  "recommendations": [
+    {
+      "id": "ACC-CP-001",
+      "text": "12-lead ECG should be obtained and interpreted within 10 minutes of emergency department arrival for patients presenting with possible ACS.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "initial_evaluation"
+    },
+    {
+      "id": "ACC-CP-002",
+      "text": "High-sensitivity cardiac troponin (hs-cTn) testing is recommended at 0h and 1–2h (accelerated protocol) for early rule-in and rule-out of NSTEMI.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "biomarkers"
+    },
+    {
+      "id": "ACC-CP-003",
+      "text": "Risk stratification using validated tools (HEART, TIMI, GRACE) is recommended to guide management of chest pain in the ED.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "risk_stratification"
+    },
+    {
+      "id": "ACC-CP-004",
+      "text": "Patients with low HEART score (≤3) and normal hs-cTn can be discharged safely without further observation.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "risk_stratification"
+    },
+    {
+      "id": "ACC-CP-005",
+      "text": "CCTA is recommended as a first-line diagnostic test for patients with stable chest pain of intermediate probability of obstructive CAD.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "imaging",
+      "notes": "Coronary CT Angiography"
+    },
+    {
+      "id": "ACC-CP-006",
+      "text": "Exercise ECG testing is reasonable for evaluation of chest pain with intermediate probability when CCTA or functional testing is not available.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "imaging"
+    },
+    {
+      "id": "ACC-CP-007",
+      "text": "Stress MPI or echocardiography is reasonable as initial testing in patients with LBBB or paced rhythm, where ECG interpretation is limited.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "imaging"
+    },
+    {
+      "id": "ACC-CP-008",
+      "text": "Routine coronary angiography is not recommended in patients with chest pain and low probability of CAD.",
+      "class": "III",
+      "level_of_evidence": "C",
+      "category": "imaging"
+    },
+    {
+      "id": "ACC-CP-009",
+      "text": "Measurement of coronary artery calcium (CAC) may be considered in asymptomatic adults 40–75 years with intermediate ASCVD risk to refine risk stratification.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "risk_stratification"
+    }
+  ],
+  "diagnostic_pathways": {
+    "STEMI_pathway": "ECG within 10 min → STEMI identified → activate cath lab → primary PCI within 90 min door-to-balloon",
+    "NSTE_ACS_pathway": "ECG + hs-cTnI at 0h/1–2h → risk score (HEART/GRACE) → stratify: low (discharge), moderate (observation), high (early invasive)",
+    "stable_chest_pain": "Pre-test probability assessment → if intermediate: CCTA first-line → if CCTA positive: functional test or ICA"
+  },
+  "pre_test_probability_tools": [
+    "Duke Clinical Score",
+    "HEART Score",
+    "Diamond-Forrester criteria",
+    "CHA2DS2-VASc (for AF identification)"
+  ]
+}

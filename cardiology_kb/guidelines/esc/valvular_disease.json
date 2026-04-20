@@ -1,0 +1,125 @@
+{
+  "title": "2021 ESC/EACTS Guidelines for the Management of Valvular Heart Disease",
+  "organization": "ESC/EACTS",
+  "year": 2021,
+  "doi": "10.1093/eurheartj/ehab395",
+  "pmid": "34453165",
+  "topic": "valvular_disease",
+  "definitions": {
+    "Severe AS": "AVA ≤1.0 cm², mean gradient ≥40 mmHg, Vmax ≥4.0 m/s",
+    "Low-flow Low-gradient severe AS": "AVA ≤1.0 cm², mean gradient <40 mmHg with reduced or preserved LVEF",
+    "Severe MR (primary)": "EROA ≥40 mm², regurgitant volume ≥60 mL/beat, vena contracta ≥7 mm",
+    "Severe MR (secondary)": "EROA ≥20 mm², regurgitant volume ≥30 mL/beat",
+    "Severe MS": "MVA ≤1.5 cm²",
+    "Heart Valve Clinic": "Dedicated multidisciplinary team for valve disease management",
+    "Valve Heart Team": "Multidisciplinary team including cardiologist, cardiac surgeon, imaging specialist, anaesthesiologist"
+  },
+  "recommendations": [
+    {
+      "id": "ESC-VHD-001",
+      "text": "AVR is indicated in symptomatic patients with severe AS.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ESC-VHD-002",
+      "text": "For patients with severe symptomatic AS at high or prohibitive surgical risk, TAVR is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ESC-VHD-003",
+      "text": "For patients with severe AS <75 years at low/intermediate surgical risk, SAVR is recommended; TAVR is an alternative if anatomy is favorable.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ESC-VHD-004",
+      "text": "AVR (TAVR or SAVR) should be considered in asymptomatic severe AS with rapid progression, very severe AS (Vmax ≥5.5 m/s), or markedly elevated BNP.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "aortic_stenosis"
+    },
+    {
+      "id": "ESC-VHD-005",
+      "text": "MV surgery (repair preferred) is indicated in symptomatic severe primary MR with LVEF >30%.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "mitral_regurgitation"
+    },
+    {
+      "id": "ESC-VHD-006",
+      "text": "MV repair is indicated in asymptomatic severe primary MR with LVEF ≤60% or LVESD ≥45 mm.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "mitral_regurgitation"
+    },
+    {
+      "id": "ESC-VHD-007",
+      "text": "TEER (MitraClip) is recommended for severe secondary MR in patients with HF remaining symptomatic on GDMT meeting COAPT-like criteria.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "mitral_regurgitation"
+    },
+    {
+      "id": "ESC-VHD-008",
+      "text": "Percutaneous balloon mitral valvuloplasty is recommended for symptomatic severe MS (MVA ≤1.5 cm²) with favorable anatomy.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "mitral_stenosis"
+    },
+    {
+      "id": "ESC-VHD-009",
+      "text": "Anticoagulation with VKA (warfarin) is recommended for all patients with rheumatic mitral stenosis and AF.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "anticoagulation"
+    },
+    {
+      "id": "ESC-VHD-010",
+      "text": "All decisions about valve intervention should involve a Heart Valve Team.",
+      "class": "I",
+      "level_of_evidence": "C",
+      "category": "organisation_of_care"
+    },
+    {
+      "id": "ESC-VHD-011",
+      "text": "Lifelong anticoagulation with VKA is recommended in patients with mechanical prostheses.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "anticoagulation"
+    },
+    {
+      "id": "ESC-VHD-012",
+      "text": "IE prophylaxis is recommended for high-risk patients (prosthetic valve, previous IE, cyanotic CHD) undergoing high-risk dental procedures.",
+      "class": "I",
+      "level_of_evidence": "C",
+      "category": "endocarditis_prophylaxis"
+    }
+  ],
+  "pharmacotherapy": [
+    {
+      "drug_class": "VKA (mechanical valves)",
+      "examples": "Warfarin; INR target: 2.5–3.5 (mitral), 2.0–3.0 (aortic bileaflet low-risk)",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "Mechanical prosthetic valves (lifelong)"
+    },
+    {
+      "drug_class": "Antibiotic prophylaxis",
+      "examples": "Amoxicillin 2 g PO 30–60 min before; clindamycin 600 mg if penicillin-allergic",
+      "recommendation_class": "I",
+      "level_of_evidence": "C",
+      "indication": "IE prophylaxis for high-risk patients"
+    }
+  ],
+  "key_trials": [
+    {"name": "PARTNER 3", "drug": "TAVR (low-risk)", "finding": "TAVR non-inferior to SAVR at 2 years in low-risk severe AS", "pmid": "31084225"},
+    {"name": "COAPT", "drug": "MitraClip secondary MR", "finding": "47% reduction in HF hospitalization; 29% reduction in mortality vs GDMT", "pmid": "30280640"},
+    {"name": "AVATAR", "drug": "early AVR in asymptomatic severe AS", "finding": "Early AVR reduced CV events vs watchful waiting", "pmid": "34986248"},
+    {"name": "RECOVERY", "drug": "early AVR", "finding": "Early surgery reduced mortality vs conservative management in asymptomatic severe AS", "pmid": "31553354"}
+  ]
+}

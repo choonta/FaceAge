@@ -1,0 +1,182 @@
+{
+  "title": "2023 ACC/AHA/ACCP/HRS Guideline for Diagnosis and Management of Atrial Fibrillation",
+  "organization": "ACC/AHA/ACCP/HRS",
+  "year": 2023,
+  "doi": "10.1016/j.jacc.2023.08.017",
+  "pmid": "37898527",
+  "topic": "atrial_fibrillation",
+  "definitions": {
+    "Paroxysmal AF": "AF that terminates spontaneously or with intervention within 7 days of onset",
+    "Persistent AF": "Continuous AF lasting >7 days",
+    "Long-standing persistent AF": "Continuous AF lasting >12 months",
+    "Permanent AF": "AF accepted by patient and physician; no further rhythm-control",
+    "AF burden": "Percentage of time in AF over a monitoring period",
+    "CHA2DS2-VASc": "Stroke risk score: CHF(1), HTN(1), Age≥75(2), DM(1), Stroke/TIA(2), Vascular disease(1), Age 65–74(1), Sex female(1)"
+  },
+  "recommendations": [
+    {
+      "id": "ACC-AF-001",
+      "text": "Anticoagulation with a DOAC is recommended over warfarin in patients with AF and CHA2DS2-VASc ≥2 (men) or ≥3 (women) without moderate-to-severe MS or mechanical heart valves.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "anticoagulation",
+      "drugs": ["apixaban", "rivaroxaban", "edoxaban", "dabigatran"],
+      "drug_class": "DOAC"
+    },
+    {
+      "id": "ACC-AF-002",
+      "text": "Anticoagulation is not recommended for men with CHA2DS2-VASc = 0 or women with CHA2DS2-VASc = 1.",
+      "class": "III",
+      "level_of_evidence": "B",
+      "category": "anticoagulation"
+    },
+    {
+      "id": "ACC-AF-003",
+      "text": "Rate control with beta-blockers or non-dihydropyridine CCBs is recommended for AF with rapid ventricular response when rhythm control is not pursued.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "rate_control",
+      "drugs": ["metoprolol", "atenolol", "diltiazem", "verapamil"]
+    },
+    {
+      "id": "ACC-AF-004",
+      "text": "Catheter ablation (pulmonary vein isolation) is reasonable for symptomatic AF to improve symptoms and quality of life, and in AF-induced cardiomyopathy.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "rhythm_control"
+    },
+    {
+      "id": "ACC-AF-005",
+      "text": "Rhythm-control strategy with antiarrhythmic drugs or catheter ablation is recommended for AF patients with HF to improve outcomes.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "rhythm_control"
+    },
+    {
+      "id": "ACC-AF-006",
+      "text": "Amiodarone is reasonable for maintaining sinus rhythm in patients with significant structural heart disease when other AADs are contraindicated.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "rhythm_control",
+      "drugs": ["amiodarone"]
+    },
+    {
+      "id": "ACC-AF-007",
+      "text": "Flecainide or propafenone is recommended to maintain sinus rhythm in patients with AF without structural heart disease.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "rhythm_control",
+      "drugs": ["flecainide", "propafenone"]
+    },
+    {
+      "id": "ACC-AF-008",
+      "text": "Left atrial appendage occlusion may be considered in patients with AF at increased risk of stroke who have contraindications to long-term anticoagulation.",
+      "class": "IIb",
+      "level_of_evidence": "B",
+      "category": "stroke_prevention"
+    },
+    {
+      "id": "ACC-AF-009",
+      "text": "DC cardioversion is recommended for patients with hemodynamically unstable AF.",
+      "class": "I",
+      "level_of_evidence": "C",
+      "category": "rhythm_control"
+    },
+    {
+      "id": "ACC-AF-010",
+      "text": "Patients with AF should be evaluated and treated for risk factors and comorbidities including hypertension, obesity, sleep apnea, and alcohol use.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "risk_factor_management"
+    },
+    {
+      "id": "ACC-AF-011",
+      "text": "Digoxin may be considered for rate control when other agents are inadequate or contraindicated.",
+      "class": "IIb",
+      "level_of_evidence": "B",
+      "category": "rate_control",
+      "drugs": ["digoxin"]
+    },
+    {
+      "id": "ACC-AF-012",
+      "text": "Dronedarone is recommended to maintain sinus rhythm and reduce hospitalizations in patients with paroxysmal or persistent AF without HF or LVEF <40%.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "rhythm_control",
+      "drugs": ["dronedarone"]
+    }
+  ],
+  "stroke_risk_stratification": {
+    "tool": "CHA2DS2-VASc",
+    "scoring": {
+      "Congestive heart failure": 1,
+      "Hypertension": 1,
+      "Age ≥75": 2,
+      "Diabetes mellitus": 1,
+      "Stroke/TIA/thromboembolism": 2,
+      "Vascular disease": 1,
+      "Age 65–74": 1,
+      "Sex category (Female)": 1
+    },
+    "anticoagulation_threshold": {
+      "male": "≥2 (consider at 1)",
+      "female": "≥3 (consider at 2)"
+    }
+  },
+  "bleeding_risk": {
+    "tool": "HAS-BLED",
+    "note": "High bleeding risk (≥3) should prompt modifiable risk factor correction, not withhold anticoagulation"
+  },
+  "pharmacotherapy": [
+    {
+      "drug_class": "DOAC",
+      "examples": "apixaban, rivaroxaban, dabigatran, edoxaban",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Stroke prevention in non-valvular AF, CHA2DS2-VASc ≥2(M)/≥3(F)"
+    },
+    {
+      "drug_class": "Vitamin K Antagonist",
+      "examples": "warfarin (INR 2.0–3.0)",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "AF with moderate-severe mitral stenosis or mechanical valves"
+    },
+    {
+      "drug_class": "Rate control (beta-blocker)",
+      "examples": "metoprolol, atenolol, carvedilol",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "Rate control in AF"
+    },
+    {
+      "drug_class": "Rate control (non-DHP CCB)",
+      "examples": "diltiazem, verapamil",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "Rate control in AF (avoid in HFrEF)"
+    },
+    {
+      "drug_class": "Class Ic AAD",
+      "examples": "flecainide, propafenone",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Rhythm control, no structural heart disease"
+    },
+    {
+      "drug_class": "Class III AAD",
+      "examples": "amiodarone, sotalol, dronedarone",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Rhythm control (amiodarone for structural heart disease)"
+    }
+  ],
+  "key_trials": [
+    {"name": "ARISTOTLE", "drug": "apixaban", "finding": "21% RRR in stroke/SE, 31% reduction in major bleeding vs warfarin", "pmid": "21870978"},
+    {"name": "RE-LY", "drug": "dabigatran 150mg", "finding": "34% RRR in stroke/SE vs warfarin with similar major bleeding", "pmid": "19717844"},
+    {"name": "ROCKET-AF", "drug": "rivaroxaban", "finding": "Non-inferior to warfarin for stroke prevention", "pmid": "21870978"},
+    {"name": "CASTLE-AF", "drug": "catheter ablation", "finding": "38% RRR in death or HF worsening in AF+HFrEF", "pmid": "29277595"},
+    {"name": "EAST-AFNET 4", "drug": "early rhythm control", "finding": "21% RRR in CV death/stroke/HF hospitalization with early rhythm control", "pmid": "32865375"},
+    {"name": "CABANA", "drug": "catheter ablation", "finding": "Ablation superior for symptom burden and QoL vs drug therapy", "pmid": "31067311"}
+  ]
+}

@@ -1,0 +1,6 @@
+# Cardiology KB — all core functionality uses Python stdlib only.
+# Optional dependencies for enhanced features:
+
+# requests>=2.28          # Faster HTTP (auto-detected, stdlib urllib used as fallback)
+# biopython>=1.81         # Alternative Entrez interface (not required)
+# rich>=13.0              # Pretty terminal output (optional, plain text used as fallback)

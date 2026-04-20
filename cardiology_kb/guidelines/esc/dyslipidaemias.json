@@ -1,0 +1,151 @@
+{
+  "title": "2019 ESC/EAS Guidelines for the Management of Dyslipidaemias",
+  "organization": "ESC/EAS",
+  "year": 2019,
+  "doi": "10.1093/eurheartj/ehz455",
+  "pmid": "31504418",
+  "topic": "dyslipidaemias",
+  "definitions": {
+    "Very High CV Risk": "Established CVD, diabetes with target organ damage, eGFR <30, familial hypercholesterolemia with ASCVD, SCORE2 ≥10%",
+    "High CV Risk": "Single RF markedly elevated (e.g. LDL-C >4.9 mmol/L), SCORE2 ≥5–<10%",
+    "Moderate CV Risk": "SCORE2 1–<5%, DM <10 years no RF",
+    "Low CV Risk": "SCORE2 <1%",
+    "FH": "Familial hypercholesterolemia (heterozygous or homozygous)",
+    "LDL-C": "Low-density lipoprotein cholesterol",
+    "Lp(a)": "Lipoprotein(a) — genetically determined; independent CV risk factor"
+  },
+  "recommendations": [
+    {
+      "id": "ESC-DYS-001",
+      "text": "In very-high-risk patients, an LDL-C target of <55 mg/dL (1.4 mmol/L) AND ≥50% LDL-C reduction is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "ldl_target"
+    },
+    {
+      "id": "ESC-DYS-002",
+      "text": "In high-risk patients, an LDL-C target of <70 mg/dL (1.8 mmol/L) AND ≥50% LDL-C reduction is recommended.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "ldl_target"
+    },
+    {
+      "id": "ESC-DYS-003",
+      "text": "For very-high-risk patients experiencing a second vascular event within 2 years on maximally tolerated statin, an LDL-C target <40 mg/dL (1.0 mmol/L) may be considered.",
+      "class": "IIb",
+      "level_of_evidence": "B",
+      "category": "ldl_target"
+    },
+    {
+      "id": "ESC-DYS-004",
+      "text": "High-intensity statins are recommended in all very-high and high-risk patients.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "Statin"
+    },
+    {
+      "id": "ESC-DYS-005",
+      "text": "Ezetimibe is recommended in combination with statins when LDL-C target is not achieved.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["ezetimibe"]
+    },
+    {
+      "id": "ESC-DYS-006",
+      "text": "PCSK9 inhibitors are recommended in very-high-risk patients not achieving LDL-C target on max statin + ezetimibe.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["evolocumab", "alirocumab"],
+      "drug_class": "PCSK9 inhibitor"
+    },
+    {
+      "id": "ESC-DYS-007",
+      "text": "For patients with statin intolerance, bempedoic acid or PCSK9 inhibitors are recommended alternatives.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "statin_intolerance",
+      "drugs": ["bempedoic acid", "evolocumab", "alirocumab"]
+    },
+    {
+      "id": "ESC-DYS-008",
+      "text": "Measurement of Lp(a) at least once in each patient's lifetime is recommended to identify those at very high Lp(a) risk (>180 mg/dL).",
+      "class": "IIa",
+      "level_of_evidence": "C",
+      "category": "screening"
+    },
+    {
+      "id": "ESC-DYS-009",
+      "text": "Cascade screening for FH in first-degree relatives of FH patients is recommended.",
+      "class": "I",
+      "level_of_evidence": "C",
+      "category": "FH"
+    },
+    {
+      "id": "ESC-DYS-010",
+      "text": "Omega-3 fatty acids (4 g/day icosapent ethyl) should be considered for patients with hypertriglyceridaemia at high/very high risk.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drugs": ["icosapent ethyl"]
+    },
+    {
+      "id": "ESC-DYS-011",
+      "text": "Inclisiran is recommended to lower LDL-C in patients with ASCVD or FH at very high risk not achieving LDL-C goals.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["inclisiran"],
+      "drug_class": "siRNA PCSK9 inhibitor"
+    }
+  ],
+  "ldl_targets_by_risk": {
+    "very_high_risk": "<55 mg/dL (1.4 mmol/L) AND ≥50% reduction",
+    "high_risk": "<70 mg/dL (1.8 mmol/L) AND ≥50% reduction",
+    "moderate_risk": "<100 mg/dL (2.6 mmol/L)",
+    "low_risk": "<116 mg/dL (3.0 mmol/L)"
+  },
+  "score2_risk_tool": {
+    "description": "SCORE2 estimates 10-year risk of fatal/non-fatal CVD in Europe in individuals aged 40–69 without prior CVD or DM",
+    "high_risk_threshold": "≥10% in low-risk countries; ≥7.5% in moderate-risk; ≥5% in high-risk; ≥2.5% in very-high-risk",
+    "SCORE2_OP": "SCORE2-OP for older patients ≥70 years"
+  },
+  "pharmacotherapy": [
+    {
+      "drug_class": "High-intensity statin",
+      "examples": "atorvastatin 40–80 mg, rosuvastatin 20–40 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Very high and high CV risk"
+    },
+    {
+      "drug_class": "Ezetimibe",
+      "examples": "ezetimibe 10 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "Add-on when statin alone insufficient"
+    },
+    {
+      "drug_class": "PCSK9 inhibitor",
+      "examples": "evolocumab 140 mg Q2wk, alirocumab 75–150 mg Q2wk",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Very high risk LDL ≥55 on max statin + ezetimibe"
+    },
+    {
+      "drug_class": "siRNA PCSK9 inhibitor",
+      "examples": "inclisiran 284 mg at 0, 3 months, then Q6months",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "ASCVD/FH unable to reach LDL targets"
+    }
+  ],
+  "key_trials": [
+    {"name": "FOURIER", "drug": "evolocumab", "finding": "15% RRR in MACE; greater benefit at LDL <20 mg/dL", "pmid": "28304224"},
+    {"name": "ODYSSEY-OUTCOMES", "drug": "alirocumab", "finding": "15% RRR in MACE; reduced all-cause mortality", "pmid": "30145975"},
+    {"name": "ORION-10/11", "drug": "inclisiran", "finding": "50–54% LDL-C reduction with biannual SC injection", "pmid": "31908011"},
+    {"name": "CLEAR", "drug": "bempedoic acid", "finding": "13% MACE reduction in statin-intolerant patients", "pmid": "37284040"}
+  ]
+}

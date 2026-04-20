@@ -1,0 +1,175 @@
+{
+  "title": "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization & 2014 AHA/ACC NSTEMI Guideline",
+  "organization": "ACC/AHA",
+  "year": 2022,
+  "doi": "10.1016/j.jacc.2021.09.006",
+  "pmid": "34895352",
+  "topic": "acute_coronary_syndromes",
+  "definitions": {
+    "STEMI": "ST-elevation MI: new ST elevation ≥1mm in ≥2 contiguous leads, or LBBB",
+    "NSTEMI": "Non-ST-elevation MI: troponin elevation without ST elevation criteria",
+    "Unstable Angina": "Ischemic symptoms without troponin elevation",
+    "NSTE-ACS": "Encompasses NSTEMI and unstable angina",
+    "TIMI Risk Score": "0–7 point score for NSTE-ACS; ≥3 = high risk",
+    "GRACE Score": "Predicts in-hospital and 6-month mortality in ACS",
+    "TIMI Flow": "Grade 0–3; TIMI 3 = normal flow"
+  },
+  "recommendations": [
+    {
+      "id": "ACC-ACS-001",
+      "text": "Primary PCI is the preferred reperfusion strategy for STEMI when it can be performed within 120 minutes of first medical contact.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "reperfusion"
+    },
+    {
+      "id": "ACC-ACS-002",
+      "text": "Fibrinolytic therapy should be administered within 30 minutes of STEMI diagnosis when PCI cannot be performed within 120 minutes.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "reperfusion",
+      "drugs": ["alteplase", "tenecteplase", "reteplase"]
+    },
+    {
+      "id": "ACC-ACS-003",
+      "text": "Aspirin 162–325 mg loading dose is recommended for all patients with ACS as soon as possible.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "antiplatelet",
+      "drugs": ["aspirin"]
+    },
+    {
+      "id": "ACC-ACS-004",
+      "text": "Dual antiplatelet therapy with aspirin plus a P2Y12 inhibitor (ticagrelor or prasugrel preferred over clopidogrel) is recommended for patients with ACS managed with PCI.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "antiplatelet",
+      "drugs": ["ticagrelor", "prasugrel", "clopidogrel"]
+    },
+    {
+      "id": "ACC-ACS-005",
+      "text": "High-intensity statin therapy should be initiated or continued in all patients with ACS.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drugs": ["atorvastatin 40–80 mg", "rosuvastatin 20–40 mg"],
+      "drug_class": "Statin"
+    },
+    {
+      "id": "ACC-ACS-006",
+      "text": "Beta-blockers should be initiated within 24 hours in patients with STEMI without signs of HF, low-output state, or contraindications.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "Beta-blocker"
+    },
+    {
+      "id": "ACC-ACS-007",
+      "text": "ACEi or ARB should be initiated within 24 hours in STEMI patients with anterior MI, HF, or LVEF <40%.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "pharmacotherapy",
+      "drug_class": "ACEi/ARB"
+    },
+    {
+      "id": "ACC-ACS-008",
+      "text": "MRA should be prescribed in STEMI patients with LVEF ≤40% and HF symptoms or DM already receiving ACEi and beta-blocker.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "pharmacotherapy",
+      "drug_class": "MRA"
+    },
+    {
+      "id": "ACC-ACS-009",
+      "text": "Early invasive strategy (within 24h) is recommended in NSTE-ACS patients with elevated troponin, new ST depression, GRACE score >140, or refractory symptoms.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "strategy"
+    },
+    {
+      "id": "ACC-ACS-010",
+      "text": "Immediate invasive strategy (within 2h) is recommended for NSTE-ACS with refractory angina, haemodynamic instability, or ventricular arrhythmias.",
+      "class": "I",
+      "level_of_evidence": "C",
+      "category": "strategy"
+    },
+    {
+      "id": "ACC-ACS-011",
+      "text": "Cardiac rehabilitation is recommended for patients with ACS.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "secondary_prevention"
+    },
+    {
+      "id": "ACC-ACS-012",
+      "text": "DAPT for 12 months following ACS with PCI is recommended (shorter if bleeding risk outweighs benefit).",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "antiplatelet"
+    },
+    {
+      "id": "ACC-ACS-013",
+      "text": "For patients with ACS and AF requiring anticoagulation, triple therapy (OAC + DAPT) should be limited to the shortest necessary period; dual therapy (OAC + P2Y12) preferred thereafter.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "anticoagulation"
+    }
+  ],
+  "pharmacotherapy": [
+    {
+      "drug_class": "Antiplatelet — Aspirin",
+      "examples": "aspirin 162–325 mg load, then 75–100 mg daily",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "All ACS"
+    },
+    {
+      "drug_class": "Antiplatelet — P2Y12 inhibitor",
+      "examples": "ticagrelor 180 mg load → 90 mg BID; prasugrel 60 mg load → 10 mg daily; clopidogrel 600 mg load → 75 mg daily",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "ACS with PCI (ticagrelor/prasugrel preferred)"
+    },
+    {
+      "drug_class": "Anticoagulant",
+      "examples": "heparin UFH, enoxaparin, bivalirudin, fondaparinux",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "ACS (in-hospital anticoagulation)"
+    },
+    {
+      "drug_class": "High-intensity statin",
+      "examples": "atorvastatin 40–80 mg, rosuvastatin 20–40 mg",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "All ACS — LDL target <70 mg/dL or ≥50% reduction"
+    },
+    {
+      "drug_class": "Beta-blocker",
+      "examples": "metoprolol, carvedilol",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Post-ACS, LVEF ≤40%, arrhythmias"
+    },
+    {
+      "drug_class": "PCSK9 inhibitor",
+      "examples": "evolocumab, alirocumab",
+      "recommendation_class": "IIa",
+      "level_of_evidence": "A",
+      "indication": "Post-ACS LDL ≥70 mg/dL on maximally tolerated statin"
+    }
+  ],
+  "key_trials": [
+    {"name": "PLATO", "drug": "ticagrelor", "finding": "16% RRR in CV death/MI/stroke vs clopidogrel post-ACS", "pmid": "19717846"},
+    {"name": "TRITON-TIMI 38", "drug": "prasugrel", "finding": "19% RRR in CV death/MI/stroke vs clopidogrel, more bleeding", "pmid": "19717847"},
+    {"name": "FOURIER", "drug": "evolocumab", "finding": "15% RRR in MACE with PCSK9i added to statin post-ACS/ASCVD", "pmid": "28304224"},
+    {"name": "ODYSSEY-OUTCOMES", "drug": "alirocumab", "finding": "15% RRR in MACE; reduced mortality in patients with LDL ≥100", "pmid": "30145975"},
+    {"name": "DANAMI-3-PRIMULTI", "drug": "complete revascularization", "finding": "Multivessel PCI in STEMI reduces MACE vs culprit-only", "pmid": "26303531"},
+    {"name": "ISCHEMIA", "drug": "invasive strategy", "finding": "Routine invasive strategy not superior to conservative in stable CAD", "pmid": "32227757"}
+  ],
+  "ecg_criteria": {
+    "STEMI": "≥1 mm ST elevation in ≥2 contiguous limb leads OR ≥2 mm in ≥2 contiguous precordial leads OR new LBBB",
+    "posterior_STEMI": "ST depression ≥1 mm in V1–V4 with upright T; confirmed by V7–V9",
+    "RV_STEMI": "ST elevation in V4R; usually RCA occlusion"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "title": "2020 ESC Guidelines for the Diagnosis and Management of Atrial Fibrillation",
+  "organization": "ESC",
+  "year": 2020,
+  "doi": "10.1093/eurheartj/ehaa612",
+  "pmid": "32860505",
+  "topic": "atrial_fibrillation",
+  "definitions": {
+    "AF Classification": "First detected, paroxysmal, persistent, long-standing persistent, permanent",
+    "CHA2DS2-VASc": "CHF(1), HTN(1), Age≥75(2), DM(1), Stroke/TIA(2), Vascular disease(1), Age 65–74(1), Female sex(1)",
+    "Integrated AF Care": "ABC pathway: A=Anticoagulation, B=Better symptom management, C=Cardiovascular risk factor control",
+    "EHRA Score": "Symptom severity: I (no symptoms) to IVb (disabling symptoms)"
+  },
+  "recommendations": [
+    {
+      "id": "ESC-AF-001",
+      "text": "Oral anticoagulation is recommended for all male patients with AF and CHA2DS2-VASc ≥2 and all female patients with CHA2DS2-VASc ≥3.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "anticoagulation"
+    },
+    {
+      "id": "ESC-AF-002",
+      "text": "NOACs (apixaban, dabigatran, edoxaban, rivaroxaban) are recommended in preference to VKA in NOAC-eligible patients with AF.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "anticoagulation",
+      "drugs": ["apixaban", "dabigatran", "edoxaban", "rivaroxaban"],
+      "drug_class": "NOAC/DOAC"
+    },
+    {
+      "id": "ESC-AF-003",
+      "text": "VKA (warfarin, INR 2–3) remains recommended for AF patients with moderate-to-severe mitral stenosis or mechanical heart valves.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "anticoagulation",
+      "drugs": ["warfarin"]
+    },
+    {
+      "id": "ESC-AF-004",
+      "text": "Anticoagulation should not be prescribed to male patients with CHA2DS2-VASc = 0 or female patients with CHA2DS2-VASc = 1.",
+      "class": "III",
+      "level_of_evidence": "B",
+      "category": "anticoagulation"
+    },
+    {
+      "id": "ESC-AF-005",
+      "text": "Rate control is recommended for patients with AF and rapid ventricular rate to improve symptoms.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "rate_control"
+    },
+    {
+      "id": "ESC-AF-006",
+      "text": "Lenient rate control (resting HR <110 bpm) is recommended as an initial rate-control target for AF.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "rate_control"
+    },
+    {
+      "id": "ESC-AF-007",
+      "text": "Rhythm control (cardioversion, AADs, catheter ablation) is recommended for symptomatic AF to improve quality of life.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "rhythm_control"
+    },
+    {
+      "id": "ESC-AF-008",
+      "text": "Catheter ablation (PVI) is recommended for symptomatic paroxysmal or persistent AF when AADs are ineffective or not tolerated.",
+      "class": "I",
+      "level_of_evidence": "A",
+      "category": "rhythm_control"
+    },
+    {
+      "id": "ESC-AF-009",
+      "text": "Catheter ablation is recommended as first-line rhythm control in selected symptomatic AF patients with HF to improve LVEF.",
+      "class": "IIa",
+      "level_of_evidence": "B",
+      "category": "rhythm_control"
+    },
+    {
+      "id": "ESC-AF-010",
+      "text": "Management of comorbidities and risk factors (hypertension, obesity, DM, sleep apnoea, alcohol) is recommended as an integral part of AF management.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "risk_factor_management"
+    },
+    {
+      "id": "ESC-AF-011",
+      "text": "Screening for AF in patients >65 years with pulse taking or ECG recording is recommended.",
+      "class": "I",
+      "level_of_evidence": "B",
+      "category": "screening"
+    },
+    {
+      "id": "ESC-AF-012",
+      "text": "Left atrial appendage occlusion may be considered in patients with CI to anticoagulation.",
+      "class": "IIb",
+      "level_of_evidence": "B",
+      "category": "stroke_prevention"
+    }
+  ],
+  "abc_pathway": {
+    "A": "Anticoagulation/Avoid stroke — OAC in patients with risk factors",
+    "B": "Better symptom management — rate or rhythm control based on patient preference and symptoms",
+    "C": "Cardiovascular risk factors and comorbidity optimisation — hypertension, DM, obesity, sleep apnoea, alcohol, physical activity"
+  },
+  "pharmacotherapy": [
+    {
+      "drug_class": "NOAC",
+      "examples": "apixaban 5 mg BID, rivaroxaban 20 mg OD, dabigatran 150 mg BID, edoxaban 60 mg OD",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Stroke prevention, CHA2DS2-VASc ≥2(M)/≥3(F)"
+    },
+    {
+      "drug_class": "Beta-blocker (rate control)",
+      "examples": "metoprolol, bisoprolol, atenolol",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "Rate control in AF"
+    },
+    {
+      "drug_class": "Non-DHP CCB (rate control)",
+      "examples": "diltiazem, verapamil",
+      "recommendation_class": "I",
+      "level_of_evidence": "B",
+      "indication": "Rate control (avoid in HFrEF)"
+    },
+    {
+      "drug_class": "Antiarrhythmic — Amiodarone",
+      "examples": "amiodarone",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Rhythm control in structural heart disease"
+    },
+    {
+      "drug_class": "Antiarrhythmic — Dronedarone",
+      "examples": "dronedarone 400 mg BID",
+      "recommendation_class": "I",
+      "level_of_evidence": "A",
+      "indication": "Rhythm control, no HF or severe structural disease"
+    }
+  ],
+  "key_trials": [
+    {"name": "AFFIRM", "finding": "Rate control not inferior to rhythm control for survival in AF", "pmid": "12466506"},
+    {"name": "EAST-AFNET 4", "drug": "early rhythm control", "finding": "21% RRR in CV death/stroke/HF hospitalization with early rhythm-control strategy", "pmid": "32865375"},
+    {"name": "CASTLE-AF", "drug": "catheter ablation in HF", "finding": "38% RRR in mortality/HF worsening vs drug therapy in AF+HFrEF", "pmid": "29277595"},
+    {"name": "ARISTOTLE", "drug": "apixaban", "finding": "21% RRR in stroke/SE, 31% reduction in major bleeding vs warfarin", "pmid": "21870978"}
+  ]
+}
